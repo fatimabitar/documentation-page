@@ -1,0 +1,142 @@
+@media( max-width:1200px){
+    html{
+        font-size: 60%;
+    }
+    #navbar{
+        width: 35%;
+    }
+    #main-doc , .top{
+        width: 65%;
+    }
+    .copy-right{
+        width: 65%;
+    }
+}
+@media( max-width:992px){
+    html{
+        font-size: 60%;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+    }
+    .top .hamburger{
+        display:block;
+        align-self: center;
+        padding-right:1rem;
+    }
+
+    #navbar{
+        display: block;
+        width: 75%;
+        height: 100%;
+        background-color: var(--background-color);
+        left:-1000px;
+        top:0;
+        margin-top: 6rem;
+    }
+    #navbar.active{
+        left: 0;
+    }
+    #main-doc{
+        width: 100%;
+        margin-top: 7rem;
+    }
+    .main-section .text{
+        width: 100%;
+    }
+
+    .copy-right{
+        width: 100%;
+    }
+
+}  
+@media( max-width:768px){
+    html{
+        font-size: 55%;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+    }
+    .top .hamburger{
+        display:block;
+        align-self: center;
+        padding-right:1rem;
+    }
+
+    #navbar{
+        display: block;
+        width: 75%;
+        height: 100%;
+        background-color: var(--background-color);
+        left:-1000px;
+        top:0;
+        margin-top: 6rem;
+    }
+    #navbar.active{
+        left: 0;
+    }
+
+    #main-doc{
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .main-section .text{
+        width: 100%;
+    }
+    .copy-right{
+        width: 100%;
+    }
+}
+
+@media( max-width:600px){
+    html{
+        font-size: 50%;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem;
+    }
+    .top .hamburger{
+        display:block;
+    }
+
+    #navbar{
+        display: block;
+        width: 75%;
+        height: 100%;
+        background-color: var(--background-color);
+        left:-1000px;
+        top:0;
+    }
+    #navbar.active{
+        left: 0;
+    }
+    #basic-header{
+        font-size: 2.5rem;
+    }
+    .top{
+        width: 100%;
+    }
+    #main-doc{
+        width: 100%;
+    }
+    .main-section .text{
+        width: 100%;
+    }
+    .copy-right{
+        width: 100%;
+    }
+    .up{
+        width: 4rem;
+        height: 4rem;
+        right: 2.5rem;
+    }
+}
